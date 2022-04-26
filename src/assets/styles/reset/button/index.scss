@@ -1,0 +1,21 @@
+.ant-btn {
+    border-radius: 20px;
+    &-primary {
+        border-color: #e98b3b;
+        border-color: var(--btn-primary-color);
+        background: #e98b3b;
+        background: var(--btn-primary-color);
+        &:hover {
+            border-color: #D45F07;
+            border-color: var(--btn-primary-hover-color);
+            background: #D45F07;
+            background: var(--btn-primary-hover-color);
+        }
+        &:focus {
+            border-color: #D45F07;
+            border-color: var(--btn-primary-hover-color);
+            background: #D45F07;
+            background: var(--btn-primary-hover-color);
+        }
+    }
+}

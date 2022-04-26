@@ -1,0 +1,28 @@
+.ant-pagination {
+    //
+    &-item {
+        //
+        &-active {
+            border: 0;
+            background: transparent;
+            border-radius: 0;
+            border-bottom: 2px solid #D45F07;
+            border-bottom: 2px solid var(--primary-color);
+            a {
+                color: #D45F07;
+                color: var(--primary-color);
+            }
+            &:hover {
+                border-color: #D45F07;
+                border-color: var(--primary-color);
+            }
+        }
+        &:hover {
+            //
+            a {
+                color: #D45F07;
+                color: var(--primary-color);
+            }
+        }
+    }
+}

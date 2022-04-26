@@ -1,0 +1,22 @@
+.ant-table {
+    &-tbody > tr {
+        //
+        &:nth-child(odd) {
+            background-color: #fff;
+            background-color: var(--table-odd-background);
+        }
+        &:nth-child(even) {
+            background-color: #ebebea;
+            background-color: var(--table-even-background);
+        }
+        &.ant-table-row:hover > td {
+            background-color: #ebebea;
+            background-color: var(--table-even-background);
+        }
+    }
+    &-tbody > tr > td {
+        border: 0;
+    }
+}
+
+// .ant-table-tbody > tr.ant-table-row:hover > td

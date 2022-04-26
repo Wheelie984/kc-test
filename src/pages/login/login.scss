@@ -1,0 +1,16 @@
+.loginPage {
+    //
+    &__title {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+
+    &__form {
+        margin-top: 20px;
+    }
+
+    &__formIcon {
+        width: 24px;
+    }
+}

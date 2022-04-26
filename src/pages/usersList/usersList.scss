@@ -1,0 +1,13 @@
+.usersList {
+    //
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__content {
+        border-top: 10px solid #e98a3b;
+        border-top: 10px solid var(--primary-color);
+    }
+}

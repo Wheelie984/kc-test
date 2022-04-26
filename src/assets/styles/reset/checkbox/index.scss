@@ -1,0 +1,28 @@
+.ant-checkbox {
+    //
+    &-wrapper {
+        //
+        &:hover {
+            border-color: #e98a3b;
+            border-color: var(--primary-color);
+            .ant-checkbox-inner {
+                border-color: #e98a3b;
+                border-color: var(--primary-color);
+            }
+        }
+    }
+
+    &-checked {
+        //
+        &::after {
+            border: 1px solid #e98a3b;
+            border: 1px solid var(--primary-color);
+        }
+    }
+    &-checked &-inner {
+        background-color: #e98a3b;
+        background-color: var(--primary-color);
+        border-color: #e98a3b;
+        border-color: var(--primary-color);
+    }
+}

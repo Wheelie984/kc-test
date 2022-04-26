@@ -1,0 +1,16 @@
+.authLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .authContainer {
+        width: 460px;
+        &__wrap {
+            padding: 25px 15px;
+            background-color: #f6f6f6;
+            background-color: var(--auth-background-color);
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+    }
+}

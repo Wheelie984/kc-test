@@ -1,0 +1,51 @@
+@import url('./reset/input/index.scss');
+@import url('./reset/button/index.scss');
+@import url('./reset/checkbox/index.scss');
+@import url('./reset/table/index.scss');
+@import url('./reset/pagination/index.scss');
+@import url('./reset/loader/index.scss');
+
+html {
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f6f6f6;
+    background-color: var(--main-background-color);
+}
+
+:root {
+  --main-background-color: #f6f6f6;
+  --primary-color: #e98a3b;
+
+  // Footer
+  --footer-backbround: #eaebeb;
+
+  // Button primary
+  --btn-primary-color: var(--primary-color);
+  --btn-primary-hover-color: #D45F07;
+
+  // Input
+  --input-border-color: #c7c7c7;
+
+  // Auth
+  --auth-background-color: #f6f6f6;
+
+  // Status
+  --ok-status-background: #188836;
+  --ok-status-color: #fff;
+
+  --fail-status-background: #db255c;
+  --fail-status-color: #fff;
+
+  // Table
+  --table-odd-background: #fff;
+  --table-even-background: #ebebea;
+}
