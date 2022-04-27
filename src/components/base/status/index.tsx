@@ -8,7 +8,7 @@ export interface IBaseStatusProps {
 }
 
 const BaseStatus: React.FC<IBaseStatusProps> = ({ status }) => {
-    const Icon: any = ICONS_BY_STATUS[status] || ICONS_BY_STATUS.default;
+    const Icon: React.FC = ICONS_BY_STATUS[status] || ICONS_BY_STATUS.default;
 
     return (
         <div

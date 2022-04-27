@@ -4,7 +4,7 @@ import get from 'lodash/get';
 import './usersList.scss';
 
 // Actions
-import { getUsers } from '../../store/modules/users/action';
+import { getUsers } from '../../store/modules/users/actions';
 
 // Components
 import UsersListTable from './table';

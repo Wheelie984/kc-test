@@ -6,7 +6,7 @@ import columns from '../../../config/tables/users';
 
 export interface IUsersListTableProps {
     loading: boolean;
-    data: any;
+    data: any[] | null;
 }
 
 const UsersListTable: React.FC<IUsersListTableProps> = ({ loading, data }) => {

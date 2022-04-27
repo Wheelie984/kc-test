@@ -11,7 +11,7 @@ const BaseFooter: React.FC = () => {
     /**
      * @returns {void}
      */
-    const logoutHandler = () => {
+    const logoutHandler = (): void => {
         Cookies.remove('jwt_access_token');
         history.push('/login');
     };

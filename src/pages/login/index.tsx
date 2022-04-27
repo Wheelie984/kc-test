@@ -9,7 +9,7 @@ import './login.scss';
 import LoginForm from './form';
 
 // Actions
-import { auth } from '../../store/modules/auth/action';
+import { auth } from '../../store/modules/auth/actions';
 
 // Helpers
 import { IFormData } from './form/interfaces';
@@ -23,7 +23,7 @@ const LoginPage: React.FC = () => {
     /**
      * @returns {void}
      */
-    const authSuccess = () => {
+    const authSuccess = (): void => {
         history.push('/');
     };
 
@@ -31,7 +31,7 @@ const LoginPage: React.FC = () => {
      * @param {any} e
      * @returns {void}
      */
-    const authFailure = (e: any) => {
+    const authFailure = (e: any): void => {
         if (e?.error?.message) {
             notification.error({
                 message: 'Login is failed',
