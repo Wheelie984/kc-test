@@ -14,7 +14,6 @@
 ![](./readmeAssets/kc-login.png) | ![](./readmeAssets/kc-table.png)
 ---|---
 
-This project was created based on: [Test task](https://docs.google.com/document/d/1VPybrh_sxF1dZMCjrhBBVckDm7GxG5oxiQin_SySgYs/edit)
 
 ### Built With
 * [React](https://github.com/facebook/react)
